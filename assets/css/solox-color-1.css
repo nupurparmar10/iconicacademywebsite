@@ -1,0 +1,17 @@
+:root {
+  --solox-font: "Plus Jakarta Sans", sans-serif;
+  --solox-heading-font: "Libre Baskerville", serif;
+  --solox-text: #89868D;
+  --solox-text-rgb: 137, 134, 141;
+  --solox-base: #DE968D;
+  --solox-base-rgb: 222, 150, 141;
+  --solox-gray: #FCF5F5;
+  --solox-gray-rgb: 252, 245, 245;
+  --solox-white: #fff;
+  --solox-white-rgb: 255, 255, 255;
+  --solox-black: #27252A;
+  --solox-black-rgb: 39, 37, 42;
+  --solox-border-color: #89868D;
+  --solox-border-color-rgb: 137, 134, 141;
+}
+/*# sourceMappingURL=solox-color-1.css.map */

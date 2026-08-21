@@ -1,0 +1,61 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.main-slider-one__carousel .owl-dots {
+  left: auto;
+  right: 110px;
+}
+@media (max-width: 1199px) {
+  .main-slider-one__carousel .owl-dots {
+    right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .main-slider-one__carousel .owl-dots {
+    left: 0;
+    right: 0;
+  }
+}
+
+.about-one__flower {
+  background-position: 70px 124%;
+}
+
+.scroll-to-top {
+  left: -25px;
+}
+
+.main-slider-one__bg::after {
+  animation: cloudMove 60s linear 0s infinite;
+}
+
+@keyframes cloudMove {
+  0% {
+    background-position: 1920px -100%;
+  }
+  100% {
+    background-position: 0 -100%;
+  }
+}
+/*# sourceMappingURL=solox-custom-rtl.css.map */

@@ -36,7 +36,7 @@
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'Iconickidssalon@gmail.com';
-                $mail->Password = '';
+                $mail->Password = 'nags bfcr obmm okbo';
                 $mail->SMTPSecure = 'tls';
                 $mail->Port = 587;
 
